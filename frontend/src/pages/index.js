@@ -10,7 +10,6 @@ import Profile from "./accounts/Profile"
 const Root = () => {
     return (
         <AppLayout>
-            Root Compo
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

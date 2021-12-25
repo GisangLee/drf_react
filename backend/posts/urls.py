@@ -4,7 +4,6 @@ from . import views as post_view
 
 router = DefaultRouter()
 router.register("posts", post_view.PostViewSet)
-print(router.urls)
 
 urlpatterns = [
     path("api/", include(router.urls)),

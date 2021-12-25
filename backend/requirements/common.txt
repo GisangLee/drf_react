@@ -1,4 +1,5 @@
 Django==4.0
-pillow
 djangorestframework
+django-cors-headers
 mysqlclient
+pillow

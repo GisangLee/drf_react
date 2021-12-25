@@ -2,9 +2,9 @@ import React from "react";
 
 
 const Post = ({post}) => {
-    const { id, title, desc, location, photo, author } = post;
+    const { title, desc, location, photo } = post;
     return (
-        <div key={id}>
+        <div>
             {title}
             {desc}
             <img src={photo} alt={desc} style={{width:"100px"}}/>

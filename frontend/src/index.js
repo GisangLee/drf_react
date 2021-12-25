@@ -1,7 +1,8 @@
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import './index.css';
 import Root from "./pages";
+import 'antd/dist/antd.css';
+import './index.css';
 
 const rootElement = document.getElementById('root');
 
@@ -9,4 +10,5 @@ ReactDOM.render(
   <BrowserRouter>
       <Root/>,
   </BrowserRouter>,
-  rootElement);
+  rootElement
+);

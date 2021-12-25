@@ -3,8 +3,8 @@ import "./AppFooter.scss";
 
 const AppFooter = () => {
     return(
-        <div className="AppFooter">
-            Foooter
+        <div className="footer">
+            &copy; 2021.12.25 이기상.
         </div>
     )
 }

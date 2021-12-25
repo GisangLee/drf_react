@@ -1,3 +1,11 @@
-app_name = "posts"
+from rest_framework.routers import DefaultRouter
+from django.urls import include, path
+from . import views as post_view
 
-urlpatterns = []
+router = DefaultRouter()
+router.register("posts", post_view.PostViewSet)
+print(router.urls)
+
+urlpatterns = [
+    path("api/", include(router.urls)),
+]
